@@ -1,6 +1,5 @@
-;the build multiples function needs to 
-;compute factorials of 3 and 5
-
+;;; removes numbers devisible by 5 from a list of
+;;; multiples of 3
 (define find-unique-threes
 	(lambda (threes results)
     (if (> (length threes) 0)
@@ -27,12 +26,15 @@
 					(find-multiples next incr limit multiples)
 				)
 			)
-			; else return the list
 			multiples
 		)
 	)
 )
 
+;;; builds a list of multiples for 3s and 5s
+;;; removes the duplicates
+;;; combines the resulting lists
+;;; reduces the list to the sum of values
 (define sum-multiples-threes-fives
 	(lambda ()
 		(let ((threes (find-multiples 0 3 1000 '())))
