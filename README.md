@@ -10,5 +10,6 @@ project_euler
 [MIT-Scheme Lang Docs](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/index.html)
 
 ### Relative Wiki Articles
+
 [Lambda Calculus](http://en.wikipedia.org/wiki/Lambda_calculus#Definition)
 [Anonymouse Function](http://en.wikipedia.org/wiki/Anonymous_function)
