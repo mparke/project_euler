@@ -12,4 +12,4 @@ project_euler
 
 ### Relative Wiki Articles
 - [Lambda Calculus](http://en.wikipedia.org/wiki/Lambda_calculus#Definition) 
-- [Anonymouse Function](http://en.wikipedia.org/wiki/Anonymous_function) 
+- [Anonymous Function](http://en.wikipedia.org/wiki/Anonymous_function) 
