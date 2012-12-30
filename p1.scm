@@ -39,11 +39,11 @@
 	(lambda ()
 		(let ((threes (find-multiples 0 3 1000 '())))
 			(let ((fives (find-multiples 0 5 1000 '())))
-        ; remove duplicates from the 3's list
-        (let ((unique-threes (find-unique-threes threes '())))
-          (write unique-threes)
-          (reduce-left + 0 (append unique-threes fives))
-        )   
+		        ; remove duplicates from the 3's list
+		        (let ((unique-threes (find-unique-threes threes '())))
+		          (write unique-threes)
+		          (reduce-left + 0 (append unique-threes fives))
+		        )   
 			)
     )
 	)
